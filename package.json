@@ -1,6 +1,6 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "video-downloader",
+  "name": "tuitube",
   "title": "Video Downloader",
   "description": "Download videos from YouTube, 𝕏, Twitch, Instagram, Bilibili and more",
   "type": "module",

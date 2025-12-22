@@ -38,13 +38,8 @@ export const getytdlPath = () => {
   if (cleanedYtdlPath && existsSync(cleanedYtdlPath)) return cleanedYtdlPath;
 
   try {
-    const defaultPath = isMac
-      ? "/opt/homebrew/bin/yt-dlp"
-      : isWindows
-        ? sanitizeWindowsPath(execSync("where yt-dlp").toString().trim().split("\n")[0])
-        : "/usr/bin/yt-dlp";
-
-    return defaultPath;
+    const cmd = isWindows ? "where yt-dlp" : "which yt-dlp";
+    return sanitizeWindowsPath(execSync(cmd).toString().trim().split("\n")[0]);
   } catch {
     return "";
   }
@@ -55,13 +50,8 @@ export const getffmpegPath = () => {
   if (cleanedFfmpegPath && existsSync(cleanedFfmpegPath)) return cleanedFfmpegPath;
 
   try {
-    const defaultPath = isMac
-      ? "/opt/homebrew/bin/ffmpeg"
-      : isWindows
-        ? sanitizeWindowsPath(execSync("where ffmpeg").toString().trim().split("\n")[0])
-        : "/usr/bin/ffmpeg";
-
-    return defaultPath;
+    const cmd = isWindows ? "where ffmpeg" : "which ffmpeg";
+    return sanitizeWindowsPath(execSync(cmd).toString().trim().split("\n")[0]);
   } catch {
     return "";
   }
@@ -69,16 +59,11 @@ export const getffmpegPath = () => {
 
 export const getffprobePath = () => {
   const cleanedFfprobePath = isWindows ? sanitizeWindowsPath(ffprobePathPreference || "") : ffprobePathPreference;
-
   if (cleanedFfprobePath && existsSync(cleanedFfprobePath)) return cleanedFfprobePath;
 
   try {
-    const defaultPath = isMac
-      ? "/opt/homebrew/bin/ffprobe"
-      : isWindows
-        ? sanitizeWindowsPath(execSync("where ffprobe").toString().trim().split("\n")[0])
-        : "/usr/bin/ffprobe";
-    return defaultPath;
+    const cmd = isWindows ? "where ffprobe" : "which ffprobe";
+    return sanitizeWindowsPath(execSync(cmd).toString().trim().split("\n")[0]);
   } catch {
     return "";
   }
