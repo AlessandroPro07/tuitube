@@ -2,6 +2,8 @@
 
 > Download videos from YouTube, 𝕏, Twitch, Instagram, Bilibili and more using yt-dlp CLI
 
+![Demo](tuitube-screenshot.png)
+
 ## Installation
 
 ```sh
