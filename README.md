@@ -2,9 +2,11 @@
 
 > Download videos from YouTube, 𝕏, Twitch, Instagram, Bilibili and more using yt-dlp CLI
 
-![video-downloader-1.png](metadata%2Fvideo-downloader-1.png)
-
 ## Installation
+
+```sh
+curl -sf https://termcast.app/r/tuitube | bash
+```
 
 To use this extension, you must have `yt-dlp` and `ffmpeg` installed on your machine.
 
@@ -51,19 +53,3 @@ After installation, open a new terminal and run the following commands to find t
 ## Supported Sites
 
 See <https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md>.
-
-## **FAQs**
-
-### **Is there a YouTube downloader that actually works?**
-
-Yes, Raycast's Video Downloader is consistently updated to ensure reliable functionality.
-
-<!--
-### **Can I download clips from YouTube?**
-
-Absolutely\! Our extension supports downloading full videos, clips, and even YouTube Shorts.
--->
-
-### **How do I download a YouTube video with a manipulated URL?**
-
-Our downloader handles various URL formats. Just paste the link, and we'll take care of the rest.
